@@ -9,14 +9,25 @@ body {
   font-size: 18px;
   margin: 0;
   color: #444;
+  background-color: rgba(0, 176, 234, 0.52)
 }
 
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
+  color:black;
 }
 
-body {
-  background-color: rgba(44, 195, 244, 0.52)
+h2 {
+  font-size:30px;
+  color:#2a2a2a;
+  
 }
 
+ul {
+    font-size: 18px;
+}
+
+p1 {
+  color:#2a2a2a;
+}
