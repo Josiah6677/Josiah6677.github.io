@@ -35,3 +35,23 @@ p1 {
 h3 {
   text-align:center;
 }
+
+  /* unvisited link */
+  a:link {
+    color: Black;
+  }
+
+  /* visited link */
+  a:visited {
+    color: Grey;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: Purple;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
