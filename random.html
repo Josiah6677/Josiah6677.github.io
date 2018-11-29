@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-<p>Random???</p>
-<h3>
-<a href="index.html">Back to Home</a>
-</h3>
-</head>
+    <center>
+      <p id="Rbutton" onclick="Rc()">Click Me</p>
+      <button onclick="Bc">Color Change</button>
+    <script>
+      function Rc() {
+        document.getElementById("Rbutton").innerHTML = "Ha the button does nothing!";
+      }
+    </script>
+    <script>
+      function changeColor(id)
+      {
+        document.getElementById(id).style.color = "#0000ff"; // forecolor
+        document.getElementById(id).style.backgroundColor = "#ff0000"; // backcolor
+      }
+    </script>
+
+    <div id="myid">Hello There !!</div>
+
+    <a href="#" onclick="changeColor('myid'); return false;">Change Color</a>
+    <h3>
+      <a href="index.html">Back to Home</a>
+    </h3>
+    </center>
+  </body>
 </html>
